@@ -20,13 +20,58 @@ h4{
 }
 h6{
     font-family: var(--font-particular);
-    font-weight: normal;
 }
-.btn{
+.button{
     padding: 15px 15px;
     margin: 30px;
 }
-.btn:hover{
+.button:hover{
     background-color: rgb(29, 29, 245);
     border: none;
+}
+.image{
+    width: 100%;
+}
+.buts{
+    background-color: red;
+    padding: 15px 30px;
+}
+.buts:hover{
+    background-color: rgb(245, 46, 46);
+    border: none;
+}
+.intro{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.text{
+    line-height: 30px;
+}
+h2{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+@media (max-width: 576px){
+    .buts{
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .buts:hover{
+        background-color: rgb(245, 27, 27);
+        border: none;
+    }
+    .text{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h6{
+        letter-spacing: 0.1;
+    }
 }
