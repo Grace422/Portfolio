@@ -1,11 +1,32 @@
+:root{
+    --font-family: Georgia, 'Times New Roman', Times, serif;
+    --font-particular: Courier New, Courier, monospace;
+}
 h1{
-    color: blue;
+    font-weight: bold;
+    font-family: var(--font-family);
+    font-size: 76px;
 }
 body{
-    background-color: wheat;
+    background-color: whitesmoke;
     text-align: center;
+    padding: 210px 20px;
 }
 h4{
     color: black;
     font-weight: bold;
+    font-family: var(--font-family);
+    font-size: 46px;
+}
+h6{
+    font-family: var(--font-particular);
+    font-weight: normal;
+}
+.btn{
+    padding: 15px 15px;
+    margin: 30px;
+}
+.btn:hover{
+    background-color: rgb(29, 29, 245);
+    border: none;
 }
