@@ -2,28 +2,31 @@
     --font-family: Georgia, 'Times New Roman', Times, serif;
     --font-particular: Courier New, Courier, monospace;
 }
-h1{
+.home-section h1{
     font-weight: bold;
     font-family: var(--font-family);
     font-size: 76px;
+    text-align: center;
 }
 body{
     background-color: whitesmoke;
-    text-align: center;
     padding: 210px 20px;
 }
-h4{
+.home-section h4{
     color: black;
     font-weight: bold;
     font-family: var(--font-family);
     font-size: 46px;
+    text-align: center;
 }
-h6{
+.home-section h6{
     font-family: var(--font-particular);
+    text-align: center;
 }
 .button{
     padding: 15px 15px;
-    margin: 30px;
+    margin: 0px auto;
+    display: block;
 }
 .button:hover{
     background-color: rgb(29, 29, 245);
@@ -43,6 +46,7 @@ h6{
 .intro{
     margin-top: 200px;
     margin-bottom: 100px;
+    text-align: center;
 }
 .text{
     line-height: 30px;
@@ -51,6 +55,17 @@ h2{
     font-weight: bold;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+.about-section h1{
+    font-size: 64px;
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+.about-section h6{
+    font-weight: bold;
+}
+.btn-about{
+    padding: 15px 30px;
 }
 @media (max-width: 576px){
     .buts{
@@ -73,5 +88,18 @@ h2{
     }
     h6{
         letter-spacing: 0.1;
+    }
+    .btn-about{
+        margin: 0 auto;
+        display: block;
+    }
+    .img-about{
+        margin-top: 20px;
+    }
+    .about-section h6{
+        text-align: center;
+    }
+    .about-section h1{
+        text-align: center;
     }
 }
