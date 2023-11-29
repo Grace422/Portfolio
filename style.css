@@ -112,6 +112,54 @@ nav a:hover, nav li.active a{
 .nav-img{
     max-height: 100px;
 }
+footer{
+    margin: 60px 0;
+}
+footer .email-link{
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+footer .email-link:hover{
+    color: purple;
+}
+footer .contact-box p{
+    margin: 0;
+}
+.social-links{
+    text-align: center;
+    text-decoration: none;
+}
+.social-links a{
+    margin: 0 20px;
+    color: purple;
+    background: rgb(236, 235, 235);
+    font-size: 18px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+}
+.social-links a:hover{
+    color: white;
+    background-color: purple;
+}
+.btn-footer{
+    padding: 15px 30px;
+}
+.btn-footer:hover{
+    color: blue;
+    background-color: white;
+}
+.contact-box{
+    background-color: rgb(236, 235, 235);
+    padding: 30px 60px;
+    border-radius: 10px;
+    font-family: var(--font-family);
+}
+h4{
+    font-size: 48px;
+}
 @media (max-width: 576px){
     .buts{
         margin: 0 auto;
@@ -122,10 +170,7 @@ nav a:hover, nav li.active a{
         background-color: rgb(245, 27, 27);
         border: none;
     }
-    .text{
-        text-align: center;
-    }
-    h2{
+    .text, h2{
         text-align: center;
     }
     h1{
@@ -141,10 +186,10 @@ nav a:hover, nav li.active a{
     .img-about{
         margin-top: 20px;
     }
-    .about-section h6{
+    .about-section h6, .about-section h1{
         text-align: center;
     }
-    .about-section h1{
+    .about-section h1, .footer-text{
         text-align: center;
     }
 }
