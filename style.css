@@ -24,8 +24,7 @@ body{
 }
 .button{
     padding: 15px 15px;
-    margin: 0px auto;
-    display: block;
+    margin-left: 45%;
 }
 .button:hover{
     background-color: rgb(29, 29, 245);
